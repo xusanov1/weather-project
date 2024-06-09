@@ -1,0 +1,63 @@
+.container{
+    width: 1250px;
+    margin: 0 auto;
+    padding: 0 15px;
+    font-family: sans-serif !important;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+header h1{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+header h1 img{
+    width: 100px;
+    height: 100px;
+}
+
+.formIn{
+    max-width: 500px;
+    border-radius: 20px;
+    width: 100%;
+    height: 35px;
+    box-shadow: rgba(0,0,0,0.466)0px 0px 10px;
+    display: flex;
+    align-items:center;
+    overflow: hidden;
+    padding:0 15px;
+}
+.formIn input{
+    height: 100%;
+    flex: 1;
+    border: none;
+    outline: none;
+    font-size: 18px;
+}
+.formIn button{
+    border: none;
+    background-color: transparent;
+    font-size: 16px;
+    cursor: pointer;
+    color: grey;
+}
+.Sun{
+    width: 30px;
+    height: 30px;
+    cursor:pointer
+}
+.box img{
+    width:100%;
+    height: 600px;
+    border-radius:10px;
+    margin-top: 50px;
+}
+.karta{
+    width: 100%;
+    margin-top: 40px;
+    border-radius: 10px;
+    border: none;
+}

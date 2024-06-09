@@ -1,0 +1,56 @@
+body{
+    background-color:blueviolet;
+}
+
+.regestForm{
+   display: flex;
+   flex-direction: column;
+   width: 100%;
+   max-width: 400px; 
+   margin: 200px auto;
+   gap:20px 0;
+   font-family: sans-serif !important;
+   padding: 50px;
+   background-color:#fff;
+   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px 0px, rgba(0, 0, 0, 0.23) 0px 3px 6px 0px;
+}
+.regestForm h2{
+    margin-top: -150px;
+    text-align: center;
+    font-size: 35px;
+    color:#fff;
+    font-weight: 700;
+}
+a{
+    text-decoration: none;
+}
+.regestForm h1{
+    font-size: 45px;
+    text-align: center;
+}
+.regestForm input{
+    height: 35px;
+    text-indent: 10px;
+    font-size: 18px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    outline: none;
+}
+button{
+    background-color: blueviolet;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 16px 0;
+    transition: 0.5s;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 30px;
+}
+button:active{
+    transform: scale(0.95);
+}
+.regestForm p{
+    margin-top: 20px;
+}
